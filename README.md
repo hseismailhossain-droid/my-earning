@@ -1,0 +1,2 @@
+# my-earning
+my earning
