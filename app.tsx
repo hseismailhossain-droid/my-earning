@@ -65,7 +65,7 @@ import {
   deleteDoc,
   addDoc
 } from 'firebase/firestore';
-onst firebaseConfig = {
+const firebaseConfig = {
   apiKey: "AIzaSyCoAXssbGzJVfpwNmtKhF2t8R165g6npec",
   authDomain: "my-earning-apps-8a64e.firebaseapp.com",
   databaseURL: "https://my-earning-apps-8a64e-default-rtdb.firebaseio.com",
