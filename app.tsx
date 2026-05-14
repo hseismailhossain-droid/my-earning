@@ -65,8 +65,16 @@ import {
   deleteDoc,
   addDoc
 } from 'firebase/firestore';
-import firebaseConfig from '../firebase-applet-config.json';
-
+onst firebaseConfig = {
+  apiKey: "AIzaSyCoAXssbGzJVfpwNmtKhF2t8R165g6npec",
+  authDomain: "my-earning-apps-8a64e.firebaseapp.com",
+  databaseURL: "https://my-earning-apps-8a64e-default-rtdb.firebaseio.com",
+  projectId: "my-earning-apps-8a64e",
+  storageBucket: "my-earning-apps-8a64e.firebasestorage.app",
+  messagingSenderId: "91376842131",
+  appId: "1:91376842131:web:c99266a3b942d2d2bd2466",
+  measurementId: "G-3FN1VY82ZT"
+};
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app); 
